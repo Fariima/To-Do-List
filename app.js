@@ -45,7 +45,7 @@ const defaultItems = [item1, item2, item3];
 const listSchema = {
   name: String,
   items: [itemsSchema]
-}; //each list has a name and an array od item documents associated with it
+}; //each list has a name and an array of item documents associated with
 
 const List = mongoose.model("List", listSchema);
 
